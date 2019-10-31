@@ -1,0 +1,27 @@
+.card {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+.card-title {
+	color: #5094f2;
+	font-size: 34px;
+	font-weight: 400;
+	line-height: 51.86px;
+}
+
+.card-subtitle {
+	color: #909090;
+	font-size: 19px;
+	font-weight: 400;
+}
+
+.card-prodact {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-prodact .card-img {
+	padding: 20px 20px 20px 0;
+}

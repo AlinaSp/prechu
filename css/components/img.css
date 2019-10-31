@@ -1,0 +1,19 @@
+.section-img {
+	text-align: center;
+	padding: 34px 0 20px;
+}
+
+.section-img > img {
+	width: 215px;
+	height: 162px;
+}
+
+.section-hero .section-img > img {
+	padding: 0;
+	width: 177px;
+	height: 223px;
+}
+
+.section-hero .section-img {
+	padding: 0;
+}

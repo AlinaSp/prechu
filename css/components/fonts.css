@@ -1,0 +1,10 @@
+@font-fase {
+	font-family: "SegoeWPLight";
+	src: url("../../fonts/SegoeWPLight.ttf") format("ttf");
+	
+}
+
+@font-fase {
+	font-family: "SegoeWPN";
+	src: url("../../fonts/SegoeWPN.ttf") format("ttf");
+}
