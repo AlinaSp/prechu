@@ -17,3 +17,22 @@
 .section-hero .section-img {
 	padding: 0;
 }
+
+@media (min-width: 640px) {
+	.section-hero .section-img > img {
+		height: 308px;
+		width: auto;
+	}
+}
+
+@media (min-width: 960px) {
+	.section-img > img {
+		height: 279px;
+		width: auto;
+	}
+	.section-hero .section-img > img {
+		height: 394px;
+		width: auto;
+	}
+}
+

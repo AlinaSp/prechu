@@ -1,7 +1,24 @@
 .header {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-flow: row wrap;
+	        flex-flow: row wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	padding: 22px 0 15px 0;
+}
+
+@media (min-width: 960px) {
+	.header {
+		-webkit-box-align: end;
+		    -ms-flex-align: end;
+		        align-items: flex-end;
+	}
 }

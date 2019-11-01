@@ -9,12 +9,26 @@ padding: 10px 14px;
 border-radius: 1px;
 max-width: 240px;
 max-height: 53px;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
-align-items: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
 }
 
 
 .button:hover {
 	background-color: #fff;
 	color: #5094f2;
+}
+
+@media (min-width: 960px) {
+	.button {
+		width: 178px;
+    height: 41px;
+    font-size: 22px;
+		font-weight: 300;
+		line-height: 44.42px;
+	}
 }
