@@ -27,8 +27,11 @@
 
 .icon-check:before {
   content: "\e900";
-  color: #fff;
   padding-right: 15px;
+}
+
+a.button:hover span.icon-chek:before {
+  color: #5094f2;
 }
 
 

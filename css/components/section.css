@@ -56,7 +56,7 @@
   padding-bottom: 18px;
 }
 
-.section-text {
+.section-list {
   color: #909090;
   font-size: 17px;
   font-weight: 300;
@@ -67,14 +67,24 @@
   .section-hero .section-title {
     text-align: center;
   }
+  .section-title {
+    font-size: 32px;
+  }
+  .section-subtitle {
+    font-size: 24px;
+    padding-bottom: 0;
+  }
+  .section-list {
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 480px) {
-  .section {
-    padding: 20px 40px;
-  }
-  .section-hero {
+   .section-hero {
     padding: 20px 0;
+  }
+  .section-hero .grid-item:last-child {
+    padding-left: 20px;
   }
 }
 
@@ -98,7 +108,7 @@
   font-size: 26px;
   line-height: 44.42px;
   }
-  .section-text {
+  .section-list {
   font-size: 15px;
   line-height: 36px;
   }
